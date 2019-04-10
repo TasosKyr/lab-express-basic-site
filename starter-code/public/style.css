@@ -1,0 +1,96 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: yellowgreen; */
+/* } */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    color: beige;
+}
+
+#global-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    width: 100%;
+    min-width: 1024px;
+    height: 44px;
+    display: block;
+    background-color: rgba(45, 45, 45, 0.98);
+    font-size: 17px;
+    font-family: 'Helvetica';
+}
+
+#nav-content {
+    margin: 0 auto;
+    max-width: 980px;
+    height: 100%;
+    /*   background-color: #DCDCDC; */
+}
+
+#nav-list {
+    margin: 0;
+    padding: 0;
+    height: 44px;
+    display: flex;
+    justify-content: space-around;
+    /*   background-color: #A9A9A9; */
+    user-select: none;
+    list-style: none;
+}
+
+.nav-item {
+    height: 44px;
+    z-index: 1;
+    /*   background-color: #808080; */
+}
+
+.item-text {
+    font-size: 14px;
+    line-height: 3.14286;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    text-shadow: 1px 1px 2px rgb(107, 103, 103), 0 0 1em rgb(23, 23, 27), 0 0 0.2em rgb(13, 13, 19);
+    /* background-color: black;
+    opacity: 0.7; */
+}
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/backgroundpugs.jpeg');
+    background-size: cover;
+    color: beige;
+}
